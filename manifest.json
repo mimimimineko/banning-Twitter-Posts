@@ -1,0 +1,30 @@
+{
+    "name":"ツイートは禁止だぞっ(•ө•)",
+    "manifest_version":3,
+    "version":"0.1",
+    "permissions": [],
+    "description": "Twitterに投稿するその時間、開放して差し上げますわ",
+    "icons": {
+        // "16": "src/icon/icon16.png",
+        // "48": "src/icon/icon48.png",
+        // "128": "src/icon/icon128.png"
+    },
+    "action":{
+        "default_icon":{
+            // "19":"src/icon/icon19.png"
+        },
+        "default_title":"Banning Twitter Posts"
+        // "default_popup":"src/popup.html"
+    },
+    "homepage_url":"https://mimimimineko.com/",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts":[
+        {
+            "matches": ["https://twitter.com"],
+            "run_at":"document_start",
+            "js":["background.js"]
+        }
+    ]
+}
