@@ -1,7 +1,7 @@
 {
-    "name":"Twitter低浮上アシスタント",
+    "name":"低浮上アシスタント",
     "manifest_version":3,
-    "version":"0.2",
+    "version":"0.3",
     "permissions": ["activeTab", "scripting"],
     "description": "Twitterに投稿するその時間、開放して差し上げますわ",
     "icons": {
