@@ -1,8 +1,9 @@
 {
     "name":"低浮上アシスタント",
     "manifest_version":3,
-    "version":"0.4",
-    "permissions": ["activeTab", "scripting"],
+    "version":"0.5",
+    // "permissions": ["activeTab", "scripting"],
+    "permissions": [],
     "description": "Twitterに投稿するその時間、開放して差し上げますわ　この拡張機能はTwitter社とは一切関係のない非公式 拡張機能ですわ。",
     "icons": {
         "16": "icon/icon16.png",
